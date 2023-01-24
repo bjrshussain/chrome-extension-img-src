@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", async()=>{
         image = { ...image, small: data.thumb, medium: data.small, large: data.regular }
         image_tag.src = image.large
     }
+    // call the function
+    get_random_photo()
 
     // copt text actions
     const copy_btn = document.getElementById("button")
